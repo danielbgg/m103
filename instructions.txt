@@ -1,5 +1,5 @@
-openssl rand -base64 741 > /Users/daniel.goncalves/MongoDB/products/database/m103/pki/m103-keyfile
-chmod 400 /Users/daniel.goncalves/MongoDB/products/database/m103/pki/m103-keyfile
+openssl rand -base64 741 > pki/m103-keyfile
+chmod 400 pki/m103-keyfile
 
 NODES:
 use admin
